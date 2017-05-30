@@ -18,3 +18,4 @@ RChart <- qcc(Air_Quality_May, type="R", nsigmas=3)
 
 # Creates X chart to measure central tendency of the process
 XChart <- qcc(Air_Quality_May, type="xbar", nsigmas=3)
+
