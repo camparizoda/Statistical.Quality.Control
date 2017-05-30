@@ -1,5 +1,4 @@
-# X-Bar/R Control Charts
-# For further readings see: https://qualityandinnovation.files.wordpress.com/2015/11/xbar-r-75-925_9.pdf
+# Description: X-Bar/R Control Charts
 #IMPORTANT: In a real case application process must exhibit a normal distribution
 
 library(qcc)
@@ -18,4 +17,12 @@ RChart <- qcc(Air_Quality_May, type="R", nsigmas=3)
 
 # Creates X chart to measure central tendency of the process
 XChart <- qcc(Air_Quality_May, type="xbar", nsigmas=3)
+
+# See graph at http://rpubs.com/CampariZoda/280720
+
+# For further readings see: 
+# https://qualityandinnovation.files.wordpress.com/2015/11/xbar-r-75-925_9.pdf
+# http://www.wiley.com/college/sc/reid/chap6.pdf
+
+
 
